@@ -1,0 +1,11 @@
+body {
+  font: 14px "Ubuntu", Helvetica, Arial, sans-serif;
+}
+.navbar-inverse {
+  background-color: forestgreen !important;
+  border: none !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-family: 'Ubuntu', cursive;
+}

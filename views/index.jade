@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    
+    .navbar.navbar-static-top.navbar-inverse 
+      .navbar-brand #{title}
+  
+  .container
+    h2 Example Usage:
+    code https://fcc-time-stamp.herokuapp.com/December%2015,%202015
+    br
+    code https://fcc-time-stamp.herokuapp.com/1450137600
+  
+    h2 Example Output:
+    code { "unix": 1450137600, "natural": "December 15, 2015" }
